@@ -103,3 +103,16 @@ const connectDatabase = async () => {
 };
 
 connectDatabase();
+
+
+// When applicable your responses will include:
+// dropship_town_order_id - Your Dropship Town Order #
+// customer_po_number - Your PO#
+// lookup_id - The order ID you used for your search
+// current_order_status - The current status of your order
+// shipped - Will let you know if order has shipped by Yes/No response
+// shipping_method_selected - Will give you shipping method you selected for order
+// ship_time - Will give you date/time when order shipped
+// shipments - Will be an array of carrier and tracking number for all shipments in order
+// response_code - Response Code
+// response_desc - Response Description.
